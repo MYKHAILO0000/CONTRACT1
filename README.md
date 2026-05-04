@@ -5,6 +5,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract MyMemeCoin is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
-        _mint(msg.sender, 1000000 * 10**decimals()); // Створює 1 млн монет тобі на гаманець
+        _mint(msg.sender, 1000000 * 10**decimals()); // 
     }
 }
